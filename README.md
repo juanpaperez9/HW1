@@ -1,18 +1,21 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## HW1
 
-## Folder Structure
+**any questions or clarifications you would like to have asked of the client who needs this code**
 
-The workspace contains two folders by default, where:
+Some questions I would like to ask the client could be like:
+What specific functionalities would you like to see for this weapon database feature?
+Are there any specific requirements or constraints that need to be considered during development?
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+**any design decisions or assumptions you made in order to write the code**
 
-## Dependency Management
+So before starting writing the code I breakdown the problem to see what things I needed to have
+to do address the problem.
+First I needed a database to store the weapons so I defined the datastructure that in this case
+I used a HashMap to store the weapons and corresponding strengths.
+I created a class called weaponDatabase and then add some functions like addWeapon, getWeaponStrength and 
+ListAllWeapons. Then I needed to organize the user interface. I created a scanner to allow user
+interaction.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
